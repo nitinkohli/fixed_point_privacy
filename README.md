@@ -6,7 +6,7 @@
 
 This repository contains the source code for experimental results. 
 
-## Environment Setup and Running the Notebooks
+## Environment Setup
 
 This project uses uv to manage the Python environment and dependencies reproducibly
 (pyproject.toml + uv.lock specify everything).
@@ -36,3 +36,17 @@ This creates a virtual environment (usually .venv/) with the exact versions of a
 5. In Jupyter Lab, open a notebook. Go to Kernel -> Change Kernel and choose fixed_point_privacy.
 
 After the kernel is selected, notebooks will run in the same environment that uv sync created.
+
+## Running the Notebooks
+
+Once the environment is setup (as described in Steps 1-5 above), the each `.ipynb` can be run by opening the notebook and running all cells in order. 
+
+This repository contains 5 notebooks that can be run indepedently of one another:
+
+- `accuracy_experiment.ipynb`:
+- `dataset_visualization.ipynb`:
+- `distribution_privatizer_comparison.ipynb`:
+- `epsilon_split_experiment.ipynb`:
+- `runtime_experiment.ipynb`:
+
+These notebooks utilize the python packages in the `uv.lock` file, as well as other functionality within the `pets_utilities.py` and `plotting_utilities.py` files.
