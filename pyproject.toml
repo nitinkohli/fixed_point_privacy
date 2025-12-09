@@ -1,0 +1,15 @@
+[project]
+name = "fixed-point-privacy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib==3.10.7",
+    "numpy==2.3.5",
+    "opendp==0.14.1",
+    "pandas==2.3.3",
+    "pywavelets>=1.9.0",
+    "scipy==1.16.3",
+    "seaborn==0.13.2",
+]
