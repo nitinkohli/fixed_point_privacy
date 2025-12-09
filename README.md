@@ -17,7 +17,7 @@ git clone nitinkohli/fixed_point_privacy
 cd fixed_point_privacy
 ```
 
-Step 1: Install uv (if not already installed)
+Step 1: Install uv (if not already installed) using curl:
 
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
