@@ -19,7 +19,9 @@ cd fixed_point_privacy
 
 Step 1: Install uv (if not already installed)
 
-`curl -LsSf https://astral.sh/uv/install.sh | sh`
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
 or with Homebrew:
 
