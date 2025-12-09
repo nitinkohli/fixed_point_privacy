@@ -1,6 +1,6 @@
 # Preserving Target Distributions With Differentially Private Count Mechanisms
 
-This repository contains the source code for the experimental results in "Preserving Target Distributions With Differentially Private Count Mechanisms" by Nitin Kohli and Paul Laskowski, accepted at Proceeding on Privacy Enhancement Technologies, 2026.
+This repository contains the source code for the experimental results in "Preserving Target Distributions With Differentially Private Count Mechanisms" by Nitin Kohli and Paul Laskowski, accepted at Proceeding on Privacy Enhancing Technologies, 2026.
 
 > Differentially private mechanisms are increasingly used to publish tables of counts, where each entry represents the number of individuals belonging to a particular category. A distribution of counts summarizes the information in the count column, unlinking counts from categories. This object is useful for answering a class of research questions, but it is subject to statistical biases when counts are privatized with standard mechanisms. This motivates a novel design criterion we term accuracy of distribution.
 
