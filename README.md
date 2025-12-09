@@ -4,15 +4,15 @@
 
 > This study formalizes a two-stage framework for privatizing tables of counts that balances  accuracy of distribution with two standard criteria of accuracy of counts and runtime. In the first stage, a distribution privatizer generates an estimate for the true distribution of counts. We introduce a new mechanism, called the cyclic Laplace, specifically tailored to distributions of counts, that outperforms existing general-purpose differentially private histogram mechanisms. In the second stage, a constructor algorithm generates a count mechanism, represented as a transition matrix, whose fixed-point is the privatized distribution of counts. We develop a mathematical theory that describes such transition matrices in terms of simple building blocks we call epsilon-scales. This theory informs the design of a new constructor algorithm that generates transition matrices with favorable properties more efficiently than standard optimization algorithms. We explore the practicality of our framework with a set of experiments, highlighting situations in which a fixed-point method provides a favorable tradeoff among performance criteria.
 
+This repository contains the source code for experimental results. 
 
-## Running the notebooks
+## Environment Setup and Running the Notebooks
 
 This project uses uv to manage the Python environment and dependencies reproducibly
 (pyproject.toml + uv.lock specify everything).
 
 1. Install uv (if not already installed)
 `curl -LsSf https://astral.sh/uv/install.sh | sh`
-
 
 or with Homebrew:
 
