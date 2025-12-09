@@ -10,7 +10,7 @@ This repository contains the source code for the experimental results in "Preser
 
 This project uses uv to manage the Python environment and dependencies in a reproducible manner (`pyproject.toml` + `uv.lock` specify everything).
 
-Step 0: Navigate to the location on your local machine where you want this repository to clone. Then, clone the project:
+Step 0: Navigate to the location on your local machine where you want this repository to reside. Then, clone the project:
 
 ```
 git clone https://github.com/nitinkohli/fixed_point_privacy.git
@@ -55,7 +55,7 @@ After the kernel is selected, notebooks will run in the same environment that `u
 
 ## Running the Notebooks
 
-This repository contains 5 notebooks that can be run indepedently of one another (described below). Once the environment is setup (as described in Steps 1-5 above), each notebook can be run by executing the cells in order. 
+This repository contains 5 notebooks (described below) that can be run indepedently of one another. Once the environment is setup (as described in Steps 1-5 above), each notebook can be run by executing the cells in order. 
 
 - `accuracy_experiment.ipynb`: This notebook generates Figures 5 and 6 from the paper, which display the count error and distributional error of various approaches. These errors are opertationalized as expected absolute deviation and Wasserstain distance respectively. This notebook also contains additional plots using other measures of count error and distributional error as robustness checks.
 - `dataset_visualization.ipynb`: This notebook generates Figures 1 and 4 from the paper. Figure 1 displays an example of the data products we study in this paper: a table of counts, with its corresponding distribution of counts. Figure 4 display the distribution of counts for the 3 main datasets we use in our experiments.
