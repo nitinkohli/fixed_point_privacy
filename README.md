@@ -13,7 +13,7 @@ This project uses uv to manage the Python environment and dependencies in a repr
 Step 0: Navigate to the location on your local machine where you want this repository to clone. Then, clone the project:
 
 ```
-git clone nitinkohli/fixed_point_privacy
+git clone https://github.com/nitinkohli/fixed_point_privacy.git
 cd fixed_point_privacy
 ```
 
