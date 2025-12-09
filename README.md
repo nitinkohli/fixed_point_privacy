@@ -20,22 +20,12 @@ From the root of the repository:
 
 This creates a virtual environment (usually .venv/) with the exact versions of all packages pinned in uv.lock.
 
-3. Start Jupyter Lab
-`uv run jupyter lab`
-
-4. Select the correct kernel in Jupyter
-
-The first time only, register a Jupyter kernel for this project:
+3. The first time only, register a Jupyter kernel for this project:
 
 `uv run python -m ipykernel install --user --name fixed_point_privacy`
 
+4. Start Jupyter Lab  `uv run jupyter lab`
 
-Then in Jupyter Lab:
-
-open a notebook
-
-go to Kernel → Change Kernel
-
-choose fixed_point_privacy
+5. In Jupyter Lab, open a notebook. Go to Kernel → Change Kernel and choose fixed_point_privacy.
 
 After the kernel is selected, notebooks will run in the same environment that uv sync created.
