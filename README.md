@@ -57,10 +57,10 @@ After the kernel is selected, notebooks will run in the same environment that `u
 
 This repository contains 5 notebooks that can be run indepedently of one another (described below). Once the environment is setup (as described in Steps 1-5 above), each notebook can be run by executing the cells in order. 
 
-- `accuracy_experiment.ipynb`:
-- `dataset_visualization.ipynb`: This notebook generates Figure 1 and Figure 4 in the paper. Figure 1 displays an example of the data products we study in this paper: a table of counts, with its corresponding distribution of counts. Figure 4 display the distribution of counts for the 3 main datasets we use in our experiments.
-- `distribution_privatizer_comparison.ipynb`:
-- `epsilon_split_experiment.ipynb`:
-- `runtime_experiment.ipynb`: 
+- `accuracy_experiment.ipynb`: This notebook generates Figures 5 and 6 from the paper, which display the count error and distributional error of various approaches. These errors are opertationalized as expected absolute deviation and Wasserstain distance respectively. This notebook also contains additional plots using other measures of count error and distributional error as robustness checks.
+- `dataset_visualization.ipynb`: This notebook generates Figures 1 and 4 from the paper. Figure 1 displays an example of the data products we study in this paper: a table of counts, with its corresponding distribution of counts. Figure 4 display the distribution of counts for the 3 main datasets we use in our experiments.
+- `distribution_privatizer_comparison.ipynb`: This notebook generates Figure 3 from the paper, which displays the lower distributional error of our cyclic Laplace mechanism compared to other existing alternatives using Wasserstein distance. The notebook also generates plots using KS distance and total deviation instead of Wasserstein distance (demonstrating the efficacy of our method using other measures of distributional accuracy).
+- `epsilon_split_experiment.ipynb`: This notebook contains details of the "rule of thumb" utilized for our experiments, which are detailed in Appendix F of our paper. This notebook also generates the values in Table 3 and Figure 8, with additional plots for other datasets.
+- `runtime_experiment.ipynb`: This notebook generates Figure 7 from the paper, which displays the execution time of our approach relative to alternative approaches. 
 
 These notebooks utilize the python packages in the `uv.lock` file, as well as other functionality within the `pets_utilities.py` and `plotting_utilities.py` files.
