@@ -39,14 +39,12 @@ After the kernel is selected, notebooks will run in the same environment that uv
 
 ## Running the Notebooks
 
-Once the environment is setup (as described in Steps 1-5 above), the each `.ipynb` can be run by opening the notebook and running all cells in order. 
-
-This repository contains 5 notebooks that can be run indepedently of one another:
+This repository contains 5 notebooks that can be run indepedently of one another (described below). Once the environment is setup (as described in Steps 1-5 above), each notebook can be run by executing the cells in order. 
 
 - `accuracy_experiment.ipynb`:
 - `dataset_visualization.ipynb`:
 - `distribution_privatizer_comparison.ipynb`:
 - `epsilon_split_experiment.ipynb`:
-- `runtime_experiment.ipynb`:
+- `runtime_experiment.ipynb`: 
 
 These notebooks utilize the python packages in the `uv.lock` file, as well as other functionality within the `pets_utilities.py` and `plotting_utilities.py` files.
