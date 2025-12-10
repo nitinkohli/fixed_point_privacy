@@ -138,12 +138,6 @@ The cyclic Laplace mechanism can be used to privatize a distribution of counts w
 Section 6.1 of our paper demonstrates distribution accuracy, with Figure 5 displaying low distribution error for our fixed point methods compared to alternative approaches. Section 6.2 of our paper demonstrates count accuracy, with Figure 6 displaying the increase in count error that our two-stage framework induces. Section 6.3 of our paper demonstrates the execution time of our approach, with Figure 7 displaying that (a) a fixed-point method requires larger runtime compared to existing baselines, but (b) the use of a heuristic constructor means the runtime is still competitive with other approaches. This main result is evidenced in Experiments 3 - 5, described below. (Note: Experiment 1 displays the distributional properties of the data used in Experiments 3-5)
 
 ### Experiments
-List each experiment to execute to reproduce your results. Describe:
- - How to execute it in detailed steps.
- - What the expected result is.
- - How long it takes to execute in human and compute times (approximately).
- - How much space it consumes on disk (approximately) (omit if <10GB).
- - Which claim and results does it support, and how.
 
 #### Experiment 1: Dataset Visualization
 
