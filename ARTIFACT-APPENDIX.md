@@ -141,7 +141,7 @@ Section 6.1 of our paper demonstrates distribution accuracy, with Figure 5 displ
 
 #### Experiment 1: Dataset Visualization
 
-See `dataset_visualization.ipynb`. This notebook generates Figures 1 and 4 from the paper. Figure 1 displays an example of the data products we study in this paper: a table of counts, with its corresponding distribution of counts. Figure 4 display the distribution of counts for the 3 main datasets we use in our experiments. These Figures mainly provide context for the subsequent experiments.
+See `dataset_visualization.ipynb`. This notebook generates Figures 1 and 4 from the paper. Figure 1 displays an example of the data products we study in this paper: a table of counts, with its corresponding distribution of counts. Figure 4 display the distribution of counts for the 3 main datasets we use in our experiments. These figures mainly provide context for the subsequent experiments.
 
 To run this notebook, open it in Jupyter. In the "Run" tab in top of the screen, select "Run All Cells". This will then run all the cells, and present the plots used in Figures 1 and 4 (Note: all other notebooks are run in a similar manner). The compute time of this is 1 minute, with only 1 minute of human time to press the run button and check the figures.
 
