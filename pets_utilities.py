@@ -531,6 +531,7 @@ def qyl_mechanism(histogram, dist_privatizer_epsilon, branching_factor):
     '''
     hist = np.asarray(histogram, dtype=float)
     n = len(hist)
+    b = int(branching_factor)
 
     ## Paper levels: i=1,...,h, leaves at i=1, root at i=h
     ## Choose h so L=b^(h-1) >= n
