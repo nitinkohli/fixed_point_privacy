@@ -27,7 +27,7 @@ Our paper proposes a novel differentially private approach to protect data, spec
 
 ### Hardware Requirements 
 
-This technical artifact can run on a laptop (No special hardware requirements). The code in this artifact were run on an Apple M2 laptop with 8 GB of memory to generate the paper's figures.
+This technical artifact can run on a laptop (No special hardware requirements). The code in this artifact (with the exception of Experiment 5) were run on an Apple M2 laptop with 8 GB of memory to generate the paper's figures. Experiment 5 was run on an Apple 2.3 GHz 8-Core Intel Core i9 laptop with 32 GB 2400 MHz DDR4 (See Experiment 5 below for more details).
 
 ### Software Requirements 
 
@@ -169,7 +169,7 @@ This experiment reproduces "Main Result 2" and -- taken together -- demonstrates
 
 See `runtime_experiment.ipynb`. This notebook generates Figure 7 from the paper, which displays the execution time of our approach relative to alternative approaches. 
 
-This experiment reproduces "Main Result 2": a fixed-point method requires larger runtime compared to existing baselines, but the use of a heuristic constructor means the runtime is still competitive with other approaches. Note that the execution time values on the y-axis of this plot may differ if the execution of this notebook occurs on a machine with different hardware than the one it was originally generated on (Apple M2 laptop with 8 GB of memory). However, we expect qualitative features of this Figure to remain true regardless even if other hardware is used. The compute time of this is 20 minutes, with only a couple of minutes of human time to press the run button and check the figure and table values. 
+This experiment reproduces "Main Result 2": a fixed-point method requires larger runtime compared to existing baselines, but the use of a heuristic constructor means the runtime is still competitive with other approaches. Note that the execution time values on the y-axis of this plot may differ if the execution of this notebook occurs on a machine with different hardware than the one it was originally generated on (Apple 2.3 GHz 8-Core Intel Core i9 laptop with 32 GB 2400 MHz DDR4). However, we expect qualitative features of this Figure to remain true regardless even if other hardware is used (in particular, while the y-values for each plot may be lower if a faster computer is used -- or that the y-values for each plot may be higher if a slower computer is used -- the ordering of the curves right to left are expected to remain consistent). The compute time of this is 20 minutes, with only a couple of minutes of human time to press the run button and check the figure and table values. 
 
 ## Limitations 
 
