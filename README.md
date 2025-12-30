@@ -49,7 +49,7 @@ Step 4: Start Jupyter Lab
 uv run jupyter lab
 ```
 
-If JupyterLab is not installed, please install it first using: `uv pip install jupyterlab`
+If Jupyter Lab is not installed, please install it first using: `uv pip install jupyterlab`
 
 Step 5: In Jupyter Lab, open a notebook. Navigate to to Kernel -> Change Kernel and choose fixed_point_privacy.
 
