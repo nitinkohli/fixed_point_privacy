@@ -77,14 +77,14 @@ https://github.com/nitinkohli/fixed_point_privacy
 
 This project uses uv to manage the Python environment and dependencies in a reproducible manner (That is, `pyproject.toml` + `uv.lock` specify everything).
 
-Step 0: Navigate to the location on your local machine where you want this repository to reside. Then, clone the project:
+- Step 0: Navigate to the location on your local machine where you want this repository to reside. Then, clone the project:
 
 ```
 git clone https://github.com/nitinkohli/fixed_point_privacy.git
 cd fixed_point_privacy
 ```
 
-Step 1: Install uv (if not already installed) using curl:
+- Step 1: Install uv (if not already installed) using curl:
 
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -96,7 +96,7 @@ or with Homebrew:
 brew install uv
 ```
 
-Step 2: Create the project environment. From the root of the repository:
+- Step 2: Create the project environment. From the root of the repository:
 
 ```
 uv sync
@@ -104,13 +104,13 @@ uv sync
 
 This creates a virtual environment (usually .venv/) with the exact versions of all packages pinned in uv.lock.
 
-Step 3: The first time only, register a Jupyter kernel for this project:
+- Step 3: The first time only, register a Jupyter kernel for this project:
 
 ```
 uv run python -m ipykernel install --user --name fixed_point_privacy
 ```
 
-Step 4: Start Jupyter Lab
+- Step 4: Start Jupyter Lab
 
 ```
 uv run jupyter lab
@@ -118,7 +118,7 @@ uv run jupyter lab
 
 If JupyterLab is not installed, please install it first using: `uv pip install jupyterlab`
 
-Step 5: In Jupyter Lab, open a notebook. Navigate to to Kernel -> Change Kernel and choose fixed_point_privacy.
+- Step 5: In Jupyter Lab, open a notebook. Navigate to to Kernel -> Change Kernel and choose fixed_point_privacy.
 
 After the kernel is selected, notebooks will run in the same environment that `uv sync` created.
 
